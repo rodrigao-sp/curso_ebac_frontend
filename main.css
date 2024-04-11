@@ -1,0 +1,81 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página e a tag HTML */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centraliza o conteúdo dentro do contêiner */
+.container {
+    text-align: center;
+}
+
+/* Estilos para o formulário */
+.form {
+    width: 600px;
+}
+
+/* Estilos para o título do formulário */
+.form h2 {
+    margin-bottom: 30px;
+}
+
+/* Define margem inferior para os grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para campos de entrada do tipo número */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para o grupo de botões */
+.btn-group {
+    display: flex;
+}
+
+/* Estilos para o botão de envio */
+.btn-submit {
+    flex: 1;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos de hover para o botão de envio */
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a mensagem exibida abaixo do formulário */
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilo para a mensagen de sucesso */
+.success {
+    color: green;
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red;
+}
