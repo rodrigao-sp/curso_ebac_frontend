@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form-name">
+            <h2>Nova Tarefa</h2>
+            <div class="input-task">
+                <input type="text" id="task" required placeholder="Digite a Tarefa" />
+            </div>
+
+            <div class="input-date">
+                <input type="date" id="date" required placeholder="Selecione o dia" />
+            </div>
+
+            <button type="submit">Adicionar tarefa</button>
+        </form>
+
+        <div class="tabela">
+            <h2>Tarefas</h2>
+            <ul id="lista-tarefa"></ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
